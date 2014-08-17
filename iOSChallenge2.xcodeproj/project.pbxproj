@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1746B1E19A11BCF00BE1466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1746B1D19A11BCF00BE1466 /* Foundation.framework */; };
+		B1746B2019A11BCF00BE1466 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1746B1F19A11BCF00BE1466 /* CoreGraphics.framework */; };
+		B1746B2219A11BCF00BE1466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1746B2119A11BCF00BE1466 /* UIKit.framework */; };
+		B1746B2819A11BCF00BE1466 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1746B2619A11BCF00BE1466 /* InfoPlist.strings */; };
+		B1746B2A19A11BCF00BE1466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1746B2919A11BCF00BE1466 /* main.m */; };
+		B1746B2E19A11BCF00BE1466 /* PNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1746B2D19A11BCF00BE1466 /* PNAppDelegate.m */; };
+		B1746B3419A11BCF00BE1466 /* PNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1746B3319A11BCF00BE1466 /* PNHomeViewController.m */; };
+		B1746B3619A11BCF00BE1466 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1746B3519A11BCF00BE1466 /* Images.xcassets */; };
+		B1746B3D19A11BCF00BE1466 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1746B3C19A11BCF00BE1466 /* XCTest.framework */; };
+		B1746B3E19A11BCF00BE1466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1746B1D19A11BCF00BE1466 /* Foundation.framework */; };
+		B1746B3F19A11BCF00BE1466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1746B2119A11BCF00BE1466 /* UIKit.framework */; };
+		B1746B4719A11BCF00BE1466 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1746B4519A11BCF00BE1466 /* InfoPlist.strings */; };
+		B1746B4919A11BCF00BE1466 /* iOSChallenge2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1746B4819A11BCF00BE1466 /* iOSChallenge2Tests.m */; };
+		B1746B5619A11FFD00BE1466 /* PNAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1746B5519A11FFD00BE1466 /* PNAnimator.m */; };
+		B1746B5819A122BC00BE1466 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1746B5719A122BC00BE1466 /* HomeVC.xib */; };
+		B1746B5A19A1232300BE1466 /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1746B5919A1232300BE1466 /* SecondVC.xib */; };
+		B1746B5D19A1234800BE1466 /* PNSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1746B5C19A1234800BE1466 /* PNSecondViewController.m */; };
+		B1746B9C19A1467D00BE1466 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1746B9919A145FA00BE1466 /* QuartzCore.framework */; };
+		BEF8A794C71746FFBE3CF41A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED94D6CB10F244D6980898E2 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1746B4019A11BCF00BE1466 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1746B1219A11BCF00BE1466 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1746B1919A11BCF00BE1466;
+			remoteInfo = iOSChallenge2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1746B1A19A11BCF00BE1466 /* iOSChallenge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSChallenge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1746B1D19A11BCF00BE1466 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1746B1F19A11BCF00BE1466 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1746B2119A11BCF00BE1466 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1746B2519A11BCF00BE1466 /* iOSChallenge2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSChallenge2-Info.plist"; sourceTree = "<group>"; };
+		B1746B2719A11BCF00BE1466 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1746B2919A11BCF00BE1466 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1746B2B19A11BCF00BE1466 /* iOSChallenge2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSChallenge2-Prefix.pch"; sourceTree = "<group>"; };
+		B1746B2C19A11BCF00BE1466 /* PNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNAppDelegate.h; sourceTree = "<group>"; };
+		B1746B2D19A11BCF00BE1466 /* PNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNAppDelegate.m; sourceTree = "<group>"; };
+		B1746B3219A11BCF00BE1466 /* PNHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNHomeViewController.h; sourceTree = "<group>"; };
+		B1746B3319A11BCF00BE1466 /* PNHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNHomeViewController.m; sourceTree = "<group>"; };
+		B1746B3519A11BCF00BE1466 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B1746B3B19A11BCF00BE1466 /* iOSChallenge2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSChallenge2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1746B3C19A11BCF00BE1466 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B1746B4419A11BCF00BE1466 /* iOSChallenge2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSChallenge2Tests-Info.plist"; sourceTree = "<group>"; };
+		B1746B4619A11BCF00BE1466 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1746B4819A11BCF00BE1466 /* iOSChallenge2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSChallenge2Tests.m; sourceTree = "<group>"; };
+		B1746B5419A11FFD00BE1466 /* PNAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNAnimator.h; sourceTree = "<group>"; };
+		B1746B5519A11FFD00BE1466 /* PNAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNAnimator.m; sourceTree = "<group>"; };
+		B1746B5719A122BC00BE1466 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		B1746B5919A1232300BE1466 /* SecondVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		B1746B5B19A1234800BE1466 /* PNSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNSecondViewController.h; sourceTree = "<group>"; };
+		B1746B5C19A1234800BE1466 /* PNSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNSecondViewController.m; sourceTree = "<group>"; };
+		B1746B9919A145FA00BE1466 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E5610851D81A4B0387198924 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		ED94D6CB10F244D6980898E2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1746B1719A11BCF00BE1466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1746B9C19A1467D00BE1466 /* QuartzCore.framework in Frameworks */,
+				B1746B2019A11BCF00BE1466 /* CoreGraphics.framework in Frameworks */,
+				B1746B2219A11BCF00BE1466 /* UIKit.framework in Frameworks */,
+				B1746B1E19A11BCF00BE1466 /* Foundation.framework in Frameworks */,
+				BEF8A794C71746FFBE3CF41A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1746B3819A11BCF00BE1466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1746B3D19A11BCF00BE1466 /* XCTest.framework in Frameworks */,
+				B1746B3F19A11BCF00BE1466 /* UIKit.framework in Frameworks */,
+				B1746B3E19A11BCF00BE1466 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1746B1119A11BCF00BE1466 = {
+			isa = PBXGroup;
+			children = (
+				B1746B2319A11BCF00BE1466 /* iOSChallenge2 */,
+				B1746B4219A11BCF00BE1466 /* iOSChallenge2Tests */,
+				B1746B1C19A11BCF00BE1466 /* Frameworks */,
+				B1746B1B19A11BCF00BE1466 /* Products */,
+				E5610851D81A4B0387198924 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		B1746B1B19A11BCF00BE1466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1746B1A19A11BCF00BE1466 /* iOSChallenge2.app */,
+				B1746B3B19A11BCF00BE1466 /* iOSChallenge2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1746B1C19A11BCF00BE1466 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1746B9919A145FA00BE1466 /* QuartzCore.framework */,
+				B1746B1D19A11BCF00BE1466 /* Foundation.framework */,
+				B1746B1F19A11BCF00BE1466 /* CoreGraphics.framework */,
+				B1746B2119A11BCF00BE1466 /* UIKit.framework */,
+				B1746B3C19A11BCF00BE1466 /* XCTest.framework */,
+				ED94D6CB10F244D6980898E2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1746B2319A11BCF00BE1466 /* iOSChallenge2 */ = {
+			isa = PBXGroup;
+			children = (
+				B1746B2C19A11BCF00BE1466 /* PNAppDelegate.h */,
+				B1746B2D19A11BCF00BE1466 /* PNAppDelegate.m */,
+				B1746B5219A11BDB00BE1466 /* View */,
+				B1746B5319A11BE300BE1466 /* Controller */,
+				B1746B3519A11BCF00BE1466 /* Images.xcassets */,
+				B1746B2419A11BCF00BE1466 /* Supporting Files */,
+			);
+			path = iOSChallenge2;
+			sourceTree = "<group>";
+		};
+		B1746B2419A11BCF00BE1466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1746B2519A11BCF00BE1466 /* iOSChallenge2-Info.plist */,
+				B1746B2619A11BCF00BE1466 /* InfoPlist.strings */,
+				B1746B2919A11BCF00BE1466 /* main.m */,
+				B1746B2B19A11BCF00BE1466 /* iOSChallenge2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1746B4219A11BCF00BE1466 /* iOSChallenge2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B1746B4819A11BCF00BE1466 /* iOSChallenge2Tests.m */,
+				B1746B4319A11BCF00BE1466 /* Supporting Files */,
+			);
+			path = iOSChallenge2Tests;
+			sourceTree = "<group>";
+		};
+		B1746B4319A11BCF00BE1466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1746B4419A11BCF00BE1466 /* iOSChallenge2Tests-Info.plist */,
+				B1746B4519A11BCF00BE1466 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1746B5219A11BDB00BE1466 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1746B5719A122BC00BE1466 /* HomeVC.xib */,
+				B1746B5919A1232300BE1466 /* SecondVC.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B1746B5319A11BE300BE1466 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1746B5419A11FFD00BE1466 /* PNAnimator.h */,
+				B1746B5519A11FFD00BE1466 /* PNAnimator.m */,
+				B1746B3219A11BCF00BE1466 /* PNHomeViewController.h */,
+				B1746B3319A11BCF00BE1466 /* PNHomeViewController.m */,
+				B1746B5B19A1234800BE1466 /* PNSecondViewController.h */,
+				B1746B5C19A1234800BE1466 /* PNSecondViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1746B1919A11BCF00BE1466 /* iOSChallenge2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1746B4C19A11BCF00BE1466 /* Build configuration list for PBXNativeTarget "iOSChallenge2" */;
+			buildPhases = (
+				44506200E3844D6ABF66B00B /* Check Pods Manifest.lock */,
+				B1746B1619A11BCF00BE1466 /* Sources */,
+				B1746B1719A11BCF00BE1466 /* Frameworks */,
+				B1746B1819A11BCF00BE1466 /* Resources */,
+				140C6C2C06024242BD7E3C35 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSChallenge2;
+			productName = iOSChallenge2;
+			productReference = B1746B1A19A11BCF00BE1466 /* iOSChallenge2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1746B3A19A11BCF00BE1466 /* iOSChallenge2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1746B4F19A11BCF00BE1466 /* Build configuration list for PBXNativeTarget "iOSChallenge2Tests" */;
+			buildPhases = (
+				B1746B3719A11BCF00BE1466 /* Sources */,
+				B1746B3819A11BCF00BE1466 /* Frameworks */,
+				B1746B3919A11BCF00BE1466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1746B4119A11BCF00BE1466 /* PBXTargetDependency */,
+			);
+			name = iOSChallenge2Tests;
+			productName = iOSChallenge2Tests;
+			productReference = B1746B3B19A11BCF00BE1466 /* iOSChallenge2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1746B1219A11BCF00BE1466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Phil Nichols";
+				TargetAttributes = {
+					B1746B3A19A11BCF00BE1466 = {
+						TestTargetID = B1746B1919A11BCF00BE1466;
+					};
+				};
+			};
+			buildConfigurationList = B1746B1519A11BCF00BE1466 /* Build configuration list for PBXProject "iOSChallenge2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1746B1119A11BCF00BE1466;
+			productRefGroup = B1746B1B19A11BCF00BE1466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1746B1919A11BCF00BE1466 /* iOSChallenge2 */,
+				B1746B3A19A11BCF00BE1466 /* iOSChallenge2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1746B1819A11BCF00BE1466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1746B5A19A1232300BE1466 /* SecondVC.xib in Resources */,
+				B1746B3619A11BCF00BE1466 /* Images.xcassets in Resources */,
+				B1746B5819A122BC00BE1466 /* HomeVC.xib in Resources */,
+				B1746B2819A11BCF00BE1466 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1746B3919A11BCF00BE1466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1746B4719A11BCF00BE1466 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		140C6C2C06024242BD7E3C35 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44506200E3844D6ABF66B00B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1746B1619A11BCF00BE1466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1746B5619A11FFD00BE1466 /* PNAnimator.m in Sources */,
+				B1746B5D19A1234800BE1466 /* PNSecondViewController.m in Sources */,
+				B1746B2E19A11BCF00BE1466 /* PNAppDelegate.m in Sources */,
+				B1746B3419A11BCF00BE1466 /* PNHomeViewController.m in Sources */,
+				B1746B2A19A11BCF00BE1466 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1746B3719A11BCF00BE1466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1746B4919A11BCF00BE1466 /* iOSChallenge2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1746B4119A11BCF00BE1466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1746B1919A11BCF00BE1466 /* iOSChallenge2 */;
+			targetProxy = B1746B4019A11BCF00BE1466 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1746B2619A11BCF00BE1466 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1746B2719A11BCF00BE1466 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1746B4519A11BCF00BE1466 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1746B4619A11BCF00BE1466 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1746B4A19A11BCF00BE1466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1746B4B19A11BCF00BE1466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1746B4D19A11BCF00BE1466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5610851D81A4B0387198924 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSChallenge2/iOSChallenge2-Prefix.pch";
+				INFOPLIST_FILE = "iOSChallenge2/iOSChallenge2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1746B4E19A11BCF00BE1466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5610851D81A4B0387198924 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSChallenge2/iOSChallenge2-Prefix.pch";
+				INFOPLIST_FILE = "iOSChallenge2/iOSChallenge2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B1746B5019A11BCF00BE1466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSChallenge2.app/iOSChallenge2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSChallenge2/iOSChallenge2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSChallenge2Tests/iOSChallenge2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B1746B5119A11BCF00BE1466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSChallenge2.app/iOSChallenge2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSChallenge2/iOSChallenge2-Prefix.pch";
+				INFOPLIST_FILE = "iOSChallenge2Tests/iOSChallenge2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1746B1519A11BCF00BE1466 /* Build configuration list for PBXProject "iOSChallenge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1746B4A19A11BCF00BE1466 /* Debug */,
+				B1746B4B19A11BCF00BE1466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1746B4C19A11BCF00BE1466 /* Build configuration list for PBXNativeTarget "iOSChallenge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1746B4D19A11BCF00BE1466 /* Debug */,
+				B1746B4E19A11BCF00BE1466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1746B4F19A11BCF00BE1466 /* Build configuration list for PBXNativeTarget "iOSChallenge2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1746B5019A11BCF00BE1466 /* Debug */,
+				B1746B5119A11BCF00BE1466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1746B1219A11BCF00BE1466 /* Project object */;
+}
